@@ -15,10 +15,20 @@ a{
 li{
     list-style: none;
 }
+
+.overlay{
+    background-color: rgba(0,0,0);
+}
+.about-me{
+    background-color: var(--mainColor);
+    /* background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
 .about-me-cont{
     width:60%;
-    border: 1px solid white;
-    padding: 40px;
+    padding: 30px;
     position:relative;
 }
 .header-cont{
@@ -30,17 +40,15 @@ li{
     transform: translateX(-50%);
 }
 .img-cont{
-    width:30%;
-    height:30%;
+    width:22rem;
+    height:24rem;
 }
-
 .heading{
     text-align: center;
     font-size: 100px;
     position: relative;
     margin-bottom: 20px;
 }
-
 
 .heading::before{
     position: absolute;
@@ -66,6 +74,22 @@ li{
 
 /***************************************************************************************************************/
 @media (width<=992px) and (width>=768px){
+    .img-cont{
+        width:18rem;
+        height:19rem;
+    }
+    .about-me-cont{
+        text-align: center;
+    }
+    .about-me-cont p{
+        font-size:1rem;
+    }
+    .about-me-cont h1{
+        font-size:2.5rem;
+    }
+    .about-me-cont h2{
+        font-size:2rem;
+    }
     .heading{
         font-size: 60px;
     }
@@ -78,6 +102,22 @@ li{
 }
 
 @media (width<=768px) and (width>=576px){
+    .img-cont{
+        width:16rem;
+        height:17rem;
+    }
+    .about-me-cont{
+        text-align: center;
+    }
+    .about-me-cont p{
+        font-size:1rem;
+    }
+    .about-me-cont h1{
+        font-size:1.6rem;
+    }
+    .about-me-cont h2{
+        font-size:1.4rem;
+    }
     .heading{
         font-size: 70px;
     }
@@ -90,8 +130,23 @@ li{
 }
 
 @media (width<=576px){
+    .img-cont{
+        width:14rem;
+        height:15rem;
+    }
     .about-me-cont{
-        width: 80%;
+        width:90%;
+        text-align: center;
+        padding:10px
+    }
+    .about-me-cont p{
+        font-size:0.9rem;
+    }
+    .about-me-cont h1{
+        font-size:1.6rem;
+    }
+    .about-me-cont h2{
+        font-size:1.4rem;
     }
     .heading{
         font-size: 40px;
