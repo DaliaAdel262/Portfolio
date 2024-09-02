@@ -21,13 +21,17 @@ li{
     padding: 40px;
     position:relative;
 }
-.img-cont{
+.header-cont{
     position: absolute;
     background-color: var(--mainColor);
     bottom:95%;
     padding: 0px 30px;
     left:50%;
     transform: translateX(-50%);
+}
+.img-cont{
+    width:30%;
+    height:30%;
 }
 
 .heading{
