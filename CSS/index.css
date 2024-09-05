@@ -19,6 +19,9 @@ li{
     list-style: none;
 }
 
+nav{
+    padding:10px;
+}
 .nav-anim{
     background-color: var(--secondColor);
     color:white !important;
