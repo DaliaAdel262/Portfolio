@@ -4,7 +4,7 @@ let projects = [
         name:'Landing page for sushi restaurant website',
         description:'Landing page using HTML & CSS while applying flexbox concepts and hover effects.',
         tools:['HTML','CSS','FlexBox'],
-        URL : '',
+        URL : 'https://sushi-landing-page-ten.vercel.app/',
         video_source : 'videos/sushi_demo.mp4',
     },
     {
