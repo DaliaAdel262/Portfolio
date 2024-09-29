@@ -28,7 +28,7 @@ nav{
     transition: 0.5s all;
 }
 .nav-anim:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 .about-me{
     background-color: var(--mainColor);
@@ -129,7 +129,7 @@ nav{
     transition: 0.7s all;
 }
 
-.project-hover:hover .project-item{
+.project-item:hover{
     transform: scale(1.05);
 }
 
