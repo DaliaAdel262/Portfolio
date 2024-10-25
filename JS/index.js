@@ -8,8 +8,8 @@ let projects = [
         video_source : 'videos/sushi_demo.mp4',
     },
     {
-        name:'Personal Website Template',
-        description:'This project is a practice exercise where I replicated the design of https://harnishdesign.net/demo/html/simone/index-classic-header.html. The goal was to enhance my web development skills and practice responsiveness and GRID system in bootstrap.',
+        name:'Portfolio template',
+        description:`Developed a visually appealing, responsive portfolio template using Bootstrap's grid system with responsive layouts for optimal user experience across various devices. `,
         tools:['HTML','CSS','Bootstrap','GRID system'],
         URL : 'https://portfolio-template-olive-sigma.vercel.app/#Nav-bar',
         video_source : 'videos/personalweb_demo.mp4',
