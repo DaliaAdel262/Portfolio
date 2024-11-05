@@ -74,7 +74,7 @@ function displayProjects(){
 }
 
 function downloadCV(){
-    const cvUrl = './CV/DaliaAdelMohamed.pdf';
+    const cvUrl = './CV/DaliaAdelMohamedCV.pdf';
     
     const a = document.createElement('a');
     
