@@ -74,12 +74,12 @@ function displayProjects(){
 }
 
 function downloadCV(){
-    const cvUrl = './CV/DaliaAdelMohamed.pdf';
+    const cvUrl = './CV/DaliaAdelMohamed-Frontend-Role.pdf';
     
     const a = document.createElement('a');
     
     a.setAttribute('href', cvUrl);
-    a.setAttribute('download', 'DaliaAdelMohamed.pdf');
+    a.setAttribute('download', 'DaliaAdelMohamed-Frontend-Role.pdf');
 
     console.log(a)
     a.click();
