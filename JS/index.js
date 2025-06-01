@@ -1,5 +1,12 @@
 const projectContainer = document.querySelector('.project-cont');
 let projects = [
+      {
+        name:'CouchBuddy',
+        description:'A movie recommendation website utilizing the movie database API to display trending movies, TV shows, and actors/actresses.',
+        tools:['Reactjs', 'JWT', 'Axios', 'Firebase', 'Bootstrap'],
+        URL : 'https://couch-buddy.vercel.app/login',
+        video_source : 'images/CouchBuddyScreenshot.png',
+    },
     {
         name:'Landing page for sushi restaurant website',
         description:'Landing page using HTML & CSS while applying flexbox concepts and hover effects.',
@@ -44,9 +51,15 @@ function displayProjects(){
             <div class="col-lg-4 p-0 ">
                   <div class="container project-item p-4 ">
                         <div class="project-video" >
-                          <video id="video" autoplay loop class="w-100 h-100 rounded-2" >
+                        ${
+                          project.video_source.includes('png')?
+                          `<img class="w-100 h-100 rounded-2" src=${project.video_source} alt="couchBuddy"></img>`
+                          :
+                          `<video id="video" autoplay loop class="w-100 h-100 rounded-2" >
                             <source src=${project.video_source} type="video/mp4">
-                        </video>
+                          </video>`
+                        }
+                          
                         </div>
                     </div>
                 </div>
